@@ -1,1 +1,0 @@
-from left to right: input brightfield image, overlay with ground truth, prediction from U-Net SE ResNeXt 101 and watershed instance based segmentation
