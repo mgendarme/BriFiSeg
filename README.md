@@ -2,7 +2,7 @@
 Semantic and instance segmentation of nuclei in brightfield images.
 
 Set parameters for size of images, number of classes, etc.:
-`~/FunctionCompilation/Paramters.r`
+`~/FunctionCompilation/Params.r`
 
 For training and ruinning inference of semantic segmentation task run:
 `BriFiSeg_Semantic_Segmentation.r`
