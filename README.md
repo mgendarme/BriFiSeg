@@ -15,3 +15,9 @@ For training and ruinning inference of semantic segmentation task run:
 
 For derinving instances and getting metrics on instances run:
 `BriFiSeg_Instance_Segmentation.r`
+
+Example of semantic segmentation of nuclei in brightfield images using U-Net and different pre-trained encoders.
+![plot](https://github.com/mgendarme/BriFiSeg/blob/main/Example/Segmentation/gt_pred_bf_test_class_2_4.png)
+
+Example of instance segmetation using watershed based instance segmentation with semantic maps as input. 
+![plot](https://github.com/mgendarme/BriFiSeg/blob/main/Example/Segmentation/Montage_1.png)
