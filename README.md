@@ -20,4 +20,4 @@ Example of semantic segmentation of nuclei in brightfield images using U-Net and
 ![plot](https://github.com/mgendarme/BriFiSeg/blob/main/Example/Segmentation/gt_pred_bf_test_class_2_4.png)
 
 Example of instance segmetation using watershed based instance segmentation with semantic maps as input. 
-![plot](https://github.com/mgendarme/BriFiSeg/blob/main/Example/Segmentation/Montage_1.png)
+![plot](https://github.com/mgendarme/BriFiSeg/blob/main/Example/Segmentation/Montage_2.png)
