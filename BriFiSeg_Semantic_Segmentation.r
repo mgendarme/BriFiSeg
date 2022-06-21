@@ -29,7 +29,11 @@ list_scripts = list("Params.r",
                     "Inspection.r",
                     "Postprocessing.r")
 for(l in 1:length(list_scripts)){
-    source(paste0(RelPath, "/FunctionCompilation/", list_scripts[[l]]))
+    if(list_scripts[[l]] == "Params.r"){
+      source(paste0(RelPath, "/", list_scripts[[l]]))  
+    } else {
+      source(paste0(RelPath, "/FunctionCompilation/", list_scripts[[l]]))
+    }
     print(paste0("Load script #", ifelse(l < 10, paste0("0", l), l), " : ", list_scripts[[l]]))
 }
 
@@ -55,7 +59,7 @@ if(dir.exists(Save_dir) == T){
 
 ## Copy current script and associated parameters to training folder
 file.copy(from = paste0(RelPath,"/BriFiSeg_Semantic_Segmentation.r"), to = paste0(Save_dir,"/BriFiSeg_Semantic_Segmentation.r"))
-file.copy(from = paste0(RelPath,"/FunctionCompilation/Params.r"), to = paste0(Save_dir, "/Params.r"))
+file.copy(from = paste0(RelPath,"/Params.r"), to = paste0(Save_dir, "/Params.r"))
 file.copy(from = paste0(RelPath,"/FunctionCompilation/Load_data_from_disk.r"), to = paste0(Save_dir, "/Load_data_from_disk.r"))
 
 ## load and pre-process data
