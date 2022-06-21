@@ -30,5 +30,5 @@ List of compatible pre-trained encoders:
   - xception
   - inception_resnet_v2
   - efficientnet B0 to efficientnet B7
-  - nasnet_mobile, "nasnet_large
-  - densenet121, "densenet169, densenet201
+  - nasnet_mobile, nasnet_large
+  - densenet121, densenet169, densenet201
