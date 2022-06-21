@@ -34,3 +34,5 @@ List of compatible pre-trained encoders:
   - EfficientNet B0 to EfficientNet B7
   - NASNet mobile, NASNet large
   - DenseNet 121, DenseNet 169, DenseNet 201
+
+Detail of [data augmentation](https://github.com/mgendarme/BriFiSeg/blob/main/FunctionCompilation/CustomGenerator_CropFix.r)
