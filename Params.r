@@ -39,21 +39,20 @@ DROPOUT = 0
 
 # learning settings
 VALIDATION_SPLIT = 0.2                   # .15 for val, .15 for test
-EPOCHS = 10L                            # 1 EPOCH = 1 Forward pass + 1 Backward pass for ALL training samples
+EPOCHS = 200L                            # 1 EPOCH = 1 Forward pass + 1 Backward pass for ALL training samples
 if(!is.null(ENCODER)){
   if(ENCODER == "senet154"){
-    STEPS_PER_EPOCHS = 100L                   # as.integer(nrow(train_input) / BATCH_SIZE)  
-    BATCH_SIZE = 4L                          # BATCH_SIZE = Number of training samples in (1 Forward / 1 Backward) pass
+    STEPS_PER_EPOCHS = 100L              # as.integer(nrow(train_input) / BATCH_SIZE)  
+    BATCH_SIZE = 4L                      # BATCH_SIZE = Number of training samples in (1 Forward / 1 Backward) pass
   } else {
   STEPS_PER_EPOCHS = 50L
   BATCH_SIZE = 8L
   }
 } else {
-  STEPS_PER_EPOCHS = 8L
+  STEPS_PER_EPOCHS = 50L
   BATCH_SIZE = 8L 
 }  
 # theroretical minibatches to compare to 250 minibatches annd batch size 11
-# 250*11/8 ~ 344
 VALIDATION_STEPS = as.integer(STEPS_PER_EPOCHS / 5L)
 
 # Weighting pararameters:
@@ -67,7 +66,7 @@ TypeOfObjects = "nuc"                 # c("nuc", "cyto")
 SND_CLASS = "interface"               # c("border", "interface")
 
 ## inspection 
-TRESH_PRED = 0.4
+TRESH_PRED = 0.5
 
 # possible_values_for_encoder = c(
 #   NULL, # only for unet architecture
