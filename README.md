@@ -21,3 +21,14 @@ Example of semantic segmentation of nuclei in brightfield images using U-Net and
 
 Example of instance segmetation using watershed based instance segmentation with semantic maps as input. 
 ![plot](https://github.com/mgendarme/BriFiSeg/blob/main/Example/Segmentation/Montage_2.png)
+
+List of compatible pre-trained encoders:
+  - resnet50, resnet101, resnet152,
+  - resnet 50 v2, resnet101 v2, resnet152v2,
+  - resnext50, resnext101
+  - seresnext 50, seresnext 101, senet154
+  - xception
+  - inception_resnet_v2
+  - efficientnet B0 to efficientnet B7
+  - nasnet_mobile, "nasnet_large
+  - densenet121, "densenet169, densenet201
