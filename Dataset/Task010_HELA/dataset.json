@@ -1,0 +1,965 @@
+{
+  "name": "HELA",
+  "description": "Nuclear brightfield segmentation",
+  "reference": "Gendarme M, BioMed X Institute",
+  "licence": "NA",
+  "release": "1.0 11/09/2021",
+  "tensorImageSize": "4D",
+  "modality": {
+    "0": "brightfield"
+  },
+  "labels": {
+    "0": "background",
+    "1": "nucleus"
+  },
+  "numTraining": 224,
+  "numTest": 48,
+  "training": [
+    {
+      "image": "./imageTs/HELA_001.nii.gz",
+      "label": "./labelTs/HELA_001.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_002.nii.gz",
+      "label": "./labelTs/HELA_002.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_003.nii.gz",
+      "label": "./labelTs/HELA_003.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_004.nii.gz",
+      "label": "./labelTs/HELA_004.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_005.nii.gz",
+      "label": "./labelTs/HELA_005.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_006.nii.gz",
+      "label": "./labelTs/HELA_006.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_007.nii.gz",
+      "label": "./labelTs/HELA_007.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_008.nii.gz",
+      "label": "./labelTs/HELA_008.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_009.nii.gz",
+      "label": "./labelTs/HELA_009.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_010.nii.gz",
+      "label": "./labelTs/HELA_010.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_011.nii.gz",
+      "label": "./labelTs/HELA_011.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_012.nii.gz",
+      "label": "./labelTs/HELA_012.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_013.nii.gz",
+      "label": "./labelTs/HELA_013.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_014.nii.gz",
+      "label": "./labelTs/HELA_014.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_015.nii.gz",
+      "label": "./labelTs/HELA_015.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_016.nii.gz",
+      "label": "./labelTs/HELA_016.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_017.nii.gz",
+      "label": "./labelTs/HELA_017.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_018.nii.gz",
+      "label": "./labelTs/HELA_018.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_019.nii.gz",
+      "label": "./labelTs/HELA_019.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_020.nii.gz",
+      "label": "./labelTs/HELA_020.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_021.nii.gz",
+      "label": "./labelTs/HELA_021.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_022.nii.gz",
+      "label": "./labelTs/HELA_022.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_023.nii.gz",
+      "label": "./labelTs/HELA_023.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_024.nii.gz",
+      "label": "./labelTs/HELA_024.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_025.nii.gz",
+      "label": "./labelTs/HELA_025.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_026.nii.gz",
+      "label": "./labelTs/HELA_026.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_027.nii.gz",
+      "label": "./labelTs/HELA_027.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_028.nii.gz",
+      "label": "./labelTs/HELA_028.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_029.nii.gz",
+      "label": "./labelTs/HELA_029.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_030.nii.gz",
+      "label": "./labelTs/HELA_030.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_031.nii.gz",
+      "label": "./labelTs/HELA_031.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_032.nii.gz",
+      "label": "./labelTs/HELA_032.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_033.nii.gz",
+      "label": "./labelTs/HELA_033.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_034.nii.gz",
+      "label": "./labelTs/HELA_034.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_035.nii.gz",
+      "label": "./labelTs/HELA_035.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_036.nii.gz",
+      "label": "./labelTs/HELA_036.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_037.nii.gz",
+      "label": "./labelTs/HELA_037.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_038.nii.gz",
+      "label": "./labelTs/HELA_038.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_039.nii.gz",
+      "label": "./labelTs/HELA_039.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_040.nii.gz",
+      "label": "./labelTs/HELA_040.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_041.nii.gz",
+      "label": "./labelTs/HELA_041.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_042.nii.gz",
+      "label": "./labelTs/HELA_042.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_043.nii.gz",
+      "label": "./labelTs/HELA_043.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_044.nii.gz",
+      "label": "./labelTs/HELA_044.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_045.nii.gz",
+      "label": "./labelTs/HELA_045.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_046.nii.gz",
+      "label": "./labelTs/HELA_046.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_047.nii.gz",
+      "label": "./labelTs/HELA_047.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_048.nii.gz",
+      "label": "./labelTs/HELA_048.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_049.nii.gz",
+      "label": "./labelTs/HELA_049.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_050.nii.gz",
+      "label": "./labelTs/HELA_050.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_051.nii.gz",
+      "label": "./labelTs/HELA_051.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_052.nii.gz",
+      "label": "./labelTs/HELA_052.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_053.nii.gz",
+      "label": "./labelTs/HELA_053.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_054.nii.gz",
+      "label": "./labelTs/HELA_054.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_055.nii.gz",
+      "label": "./labelTs/HELA_055.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_056.nii.gz",
+      "label": "./labelTs/HELA_056.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_057.nii.gz",
+      "label": "./labelTs/HELA_057.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_058.nii.gz",
+      "label": "./labelTs/HELA_058.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_059.nii.gz",
+      "label": "./labelTs/HELA_059.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_060.nii.gz",
+      "label": "./labelTs/HELA_060.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_061.nii.gz",
+      "label": "./labelTs/HELA_061.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_062.nii.gz",
+      "label": "./labelTs/HELA_062.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_063.nii.gz",
+      "label": "./labelTs/HELA_063.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_064.nii.gz",
+      "label": "./labelTs/HELA_064.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_065.nii.gz",
+      "label": "./labelTs/HELA_065.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_066.nii.gz",
+      "label": "./labelTs/HELA_066.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_067.nii.gz",
+      "label": "./labelTs/HELA_067.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_068.nii.gz",
+      "label": "./labelTs/HELA_068.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_069.nii.gz",
+      "label": "./labelTs/HELA_069.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_070.nii.gz",
+      "label": "./labelTs/HELA_070.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_071.nii.gz",
+      "label": "./labelTs/HELA_071.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_072.nii.gz",
+      "label": "./labelTs/HELA_072.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_073.nii.gz",
+      "label": "./labelTs/HELA_073.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_074.nii.gz",
+      "label": "./labelTs/HELA_074.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_075.nii.gz",
+      "label": "./labelTs/HELA_075.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_076.nii.gz",
+      "label": "./labelTs/HELA_076.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_077.nii.gz",
+      "label": "./labelTs/HELA_077.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_078.nii.gz",
+      "label": "./labelTs/HELA_078.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_079.nii.gz",
+      "label": "./labelTs/HELA_079.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_080.nii.gz",
+      "label": "./labelTs/HELA_080.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_081.nii.gz",
+      "label": "./labelTs/HELA_081.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_082.nii.gz",
+      "label": "./labelTs/HELA_082.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_083.nii.gz",
+      "label": "./labelTs/HELA_083.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_084.nii.gz",
+      "label": "./labelTs/HELA_084.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_085.nii.gz",
+      "label": "./labelTs/HELA_085.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_086.nii.gz",
+      "label": "./labelTs/HELA_086.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_087.nii.gz",
+      "label": "./labelTs/HELA_087.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_088.nii.gz",
+      "label": "./labelTs/HELA_088.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_089.nii.gz",
+      "label": "./labelTs/HELA_089.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_090.nii.gz",
+      "label": "./labelTs/HELA_090.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_091.nii.gz",
+      "label": "./labelTs/HELA_091.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_092.nii.gz",
+      "label": "./labelTs/HELA_092.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_093.nii.gz",
+      "label": "./labelTs/HELA_093.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_094.nii.gz",
+      "label": "./labelTs/HELA_094.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_095.nii.gz",
+      "label": "./labelTs/HELA_095.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_096.nii.gz",
+      "label": "./labelTs/HELA_096.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_097.nii.gz",
+      "label": "./labelTs/HELA_097.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_098.nii.gz",
+      "label": "./labelTs/HELA_098.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_099.nii.gz",
+      "label": "./labelTs/HELA_099.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_100.nii.gz",
+      "label": "./labelTs/HELA_100.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_101.nii.gz",
+      "label": "./labelTs/HELA_101.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_102.nii.gz",
+      "label": "./labelTs/HELA_102.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_103.nii.gz",
+      "label": "./labelTs/HELA_103.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_104.nii.gz",
+      "label": "./labelTs/HELA_104.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_105.nii.gz",
+      "label": "./labelTs/HELA_105.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_106.nii.gz",
+      "label": "./labelTs/HELA_106.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_107.nii.gz",
+      "label": "./labelTs/HELA_107.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_108.nii.gz",
+      "label": "./labelTs/HELA_108.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_109.nii.gz",
+      "label": "./labelTs/HELA_109.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_110.nii.gz",
+      "label": "./labelTs/HELA_110.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_111.nii.gz",
+      "label": "./labelTs/HELA_111.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_112.nii.gz",
+      "label": "./labelTs/HELA_112.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_113.nii.gz",
+      "label": "./labelTs/HELA_113.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_114.nii.gz",
+      "label": "./labelTs/HELA_114.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_115.nii.gz",
+      "label": "./labelTs/HELA_115.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_116.nii.gz",
+      "label": "./labelTs/HELA_116.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_117.nii.gz",
+      "label": "./labelTs/HELA_117.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_118.nii.gz",
+      "label": "./labelTs/HELA_118.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_119.nii.gz",
+      "label": "./labelTs/HELA_119.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_120.nii.gz",
+      "label": "./labelTs/HELA_120.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_121.nii.gz",
+      "label": "./labelTs/HELA_121.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_122.nii.gz",
+      "label": "./labelTs/HELA_122.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_123.nii.gz",
+      "label": "./labelTs/HELA_123.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_124.nii.gz",
+      "label": "./labelTs/HELA_124.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_125.nii.gz",
+      "label": "./labelTs/HELA_125.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_126.nii.gz",
+      "label": "./labelTs/HELA_126.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_127.nii.gz",
+      "label": "./labelTs/HELA_127.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_128.nii.gz",
+      "label": "./labelTs/HELA_128.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_129.nii.gz",
+      "label": "./labelTs/HELA_129.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_130.nii.gz",
+      "label": "./labelTs/HELA_130.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_131.nii.gz",
+      "label": "./labelTs/HELA_131.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_132.nii.gz",
+      "label": "./labelTs/HELA_132.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_133.nii.gz",
+      "label": "./labelTs/HELA_133.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_134.nii.gz",
+      "label": "./labelTs/HELA_134.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_135.nii.gz",
+      "label": "./labelTs/HELA_135.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_136.nii.gz",
+      "label": "./labelTs/HELA_136.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_137.nii.gz",
+      "label": "./labelTs/HELA_137.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_138.nii.gz",
+      "label": "./labelTs/HELA_138.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_139.nii.gz",
+      "label": "./labelTs/HELA_139.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_140.nii.gz",
+      "label": "./labelTs/HELA_140.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_141.nii.gz",
+      "label": "./labelTs/HELA_141.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_142.nii.gz",
+      "label": "./labelTs/HELA_142.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_143.nii.gz",
+      "label": "./labelTs/HELA_143.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_144.nii.gz",
+      "label": "./labelTs/HELA_144.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_145.nii.gz",
+      "label": "./labelTs/HELA_145.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_146.nii.gz",
+      "label": "./labelTs/HELA_146.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_147.nii.gz",
+      "label": "./labelTs/HELA_147.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_148.nii.gz",
+      "label": "./labelTs/HELA_148.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_149.nii.gz",
+      "label": "./labelTs/HELA_149.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_150.nii.gz",
+      "label": "./labelTs/HELA_150.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_151.nii.gz",
+      "label": "./labelTs/HELA_151.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_152.nii.gz",
+      "label": "./labelTs/HELA_152.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_153.nii.gz",
+      "label": "./labelTs/HELA_153.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_154.nii.gz",
+      "label": "./labelTs/HELA_154.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_155.nii.gz",
+      "label": "./labelTs/HELA_155.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_156.nii.gz",
+      "label": "./labelTs/HELA_156.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_157.nii.gz",
+      "label": "./labelTs/HELA_157.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_158.nii.gz",
+      "label": "./labelTs/HELA_158.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_159.nii.gz",
+      "label": "./labelTs/HELA_159.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_160.nii.gz",
+      "label": "./labelTs/HELA_160.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_161.nii.gz",
+      "label": "./labelTs/HELA_161.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_162.nii.gz",
+      "label": "./labelTs/HELA_162.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_163.nii.gz",
+      "label": "./labelTs/HELA_163.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_164.nii.gz",
+      "label": "./labelTs/HELA_164.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_165.nii.gz",
+      "label": "./labelTs/HELA_165.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_166.nii.gz",
+      "label": "./labelTs/HELA_166.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_167.nii.gz",
+      "label": "./labelTs/HELA_167.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_168.nii.gz",
+      "label": "./labelTs/HELA_168.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_169.nii.gz",
+      "label": "./labelTs/HELA_169.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_170.nii.gz",
+      "label": "./labelTs/HELA_170.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_171.nii.gz",
+      "label": "./labelTs/HELA_171.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_172.nii.gz",
+      "label": "./labelTs/HELA_172.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_173.nii.gz",
+      "label": "./labelTs/HELA_173.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_174.nii.gz",
+      "label": "./labelTs/HELA_174.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_175.nii.gz",
+      "label": "./labelTs/HELA_175.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_176.nii.gz",
+      "label": "./labelTs/HELA_176.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_177.nii.gz",
+      "label": "./labelTs/HELA_177.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_178.nii.gz",
+      "label": "./labelTs/HELA_178.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_179.nii.gz",
+      "label": "./labelTs/HELA_179.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_180.nii.gz",
+      "label": "./labelTs/HELA_180.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_181.nii.gz",
+      "label": "./labelTs/HELA_181.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_182.nii.gz",
+      "label": "./labelTs/HELA_182.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_183.nii.gz",
+      "label": "./labelTs/HELA_183.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_184.nii.gz",
+      "label": "./labelTs/HELA_184.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_185.nii.gz",
+      "label": "./labelTs/HELA_185.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_186.nii.gz",
+      "label": "./labelTs/HELA_186.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_187.nii.gz",
+      "label": "./labelTs/HELA_187.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_188.nii.gz",
+      "label": "./labelTs/HELA_188.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_189.nii.gz",
+      "label": "./labelTs/HELA_189.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_190.nii.gz",
+      "label": "./labelTs/HELA_190.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_191.nii.gz",
+      "label": "./labelTs/HELA_191.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_192.nii.gz",
+      "label": "./labelTs/HELA_192.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_193.nii.gz",
+      "label": "./labelTs/HELA_193.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_194.nii.gz",
+      "label": "./labelTs/HELA_194.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_195.nii.gz",
+      "label": "./labelTs/HELA_195.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_196.nii.gz",
+      "label": "./labelTs/HELA_196.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_197.nii.gz",
+      "label": "./labelTs/HELA_197.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_198.nii.gz",
+      "label": "./labelTs/HELA_198.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_199.nii.gz",
+      "label": "./labelTs/HELA_199.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_200.nii.gz",
+      "label": "./labelTs/HELA_200.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_201.nii.gz",
+      "label": "./labelTs/HELA_201.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_202.nii.gz",
+      "label": "./labelTs/HELA_202.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_203.nii.gz",
+      "label": "./labelTs/HELA_203.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_204.nii.gz",
+      "label": "./labelTs/HELA_204.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_205.nii.gz",
+      "label": "./labelTs/HELA_205.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_206.nii.gz",
+      "label": "./labelTs/HELA_206.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_207.nii.gz",
+      "label": "./labelTs/HELA_207.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_208.nii.gz",
+      "label": "./labelTs/HELA_208.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_209.nii.gz",
+      "label": "./labelTs/HELA_209.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_210.nii.gz",
+      "label": "./labelTs/HELA_210.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_211.nii.gz",
+      "label": "./labelTs/HELA_211.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_212.nii.gz",
+      "label": "./labelTs/HELA_212.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_213.nii.gz",
+      "label": "./labelTs/HELA_213.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_214.nii.gz",
+      "label": "./labelTs/HELA_214.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_215.nii.gz",
+      "label": "./labelTs/HELA_215.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_216.nii.gz",
+      "label": "./labelTs/HELA_216.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_217.nii.gz",
+      "label": "./labelTs/HELA_217.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_218.nii.gz",
+      "label": "./labelTs/HELA_218.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_219.nii.gz",
+      "label": "./labelTs/HELA_219.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_220.nii.gz",
+      "label": "./labelTs/HELA_220.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_221.nii.gz",
+      "label": "./labelTs/HELA_221.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_222.nii.gz",
+      "label": "./labelTs/HELA_222.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_223.nii.gz",
+      "label": "./labelTs/HELA_223.nii.gz"
+    },
+    {
+      "image": "./imageTs/HELA_224.nii.gz",
+      "label": "./labelTs/HELA_224.nii.gz"
+    }
+  ],
+  "test": [
+    "./imageTs/HELA_225.nii.gz",
+    "./imageTs/HELA_226.nii.gz",
+    "./imageTs/HELA_227.nii.gz",
+    "./imageTs/HELA_228.nii.gz",
+    "./imageTs/HELA_229.nii.gz",
+    "./imageTs/HELA_230.nii.gz",
+    "./imageTs/HELA_231.nii.gz",
+    "./imageTs/HELA_232.nii.gz",
+    "./imageTs/HELA_233.nii.gz",
+    "./imageTs/HELA_234.nii.gz",
+    "./imageTs/HELA_235.nii.gz",
+    "./imageTs/HELA_236.nii.gz",
+    "./imageTs/HELA_237.nii.gz",
+    "./imageTs/HELA_238.nii.gz",
+    "./imageTs/HELA_239.nii.gz",
+    "./imageTs/HELA_240.nii.gz",
+    "./imageTs/HELA_241.nii.gz",
+    "./imageTs/HELA_242.nii.gz",
+    "./imageTs/HELA_243.nii.gz",
+    "./imageTs/HELA_244.nii.gz",
+    "./imageTs/HELA_245.nii.gz",
+    "./imageTs/HELA_246.nii.gz",
+    "./imageTs/HELA_247.nii.gz",
+    "./imageTs/HELA_248.nii.gz",
+    "./imageTs/HELA_249.nii.gz",
+    "./imageTs/HELA_250.nii.gz",
+    "./imageTs/HELA_251.nii.gz",
+    "./imageTs/HELA_252.nii.gz",
+    "./imageTs/HELA_253.nii.gz",
+    "./imageTs/HELA_254.nii.gz",
+    "./imageTs/HELA_255.nii.gz",
+    "./imageTs/HELA_256.nii.gz",
+    "./imageTs/HELA_257.nii.gz",
+    "./imageTs/HELA_258.nii.gz",
+    "./imageTs/HELA_259.nii.gz",
+    "./imageTs/HELA_260.nii.gz",
+    "./imageTs/HELA_261.nii.gz",
+    "./imageTs/HELA_262.nii.gz",
+    "./imageTs/HELA_263.nii.gz",
+    "./imageTs/HELA_264.nii.gz",
+    "./imageTs/HELA_265.nii.gz",
+    "./imageTs/HELA_266.nii.gz",
+    "./imageTs/HELA_267.nii.gz",
+    "./imageTs/HELA_268.nii.gz",
+    "./imageTs/HELA_269.nii.gz",
+    "./imageTs/HELA_270.nii.gz",
+    "./imageTs/HELA_271.nii.gz",
+    "./imageTs/HELA_272.nii.gz"
+  ]
+} 
