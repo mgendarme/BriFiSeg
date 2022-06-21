@@ -1,5 +1,5 @@
 ### list of param to load for model training
-CELL = "A549"                           # c("THP1", "A549", "RPE1", "HELA", "MDM")
+CELL = "A549"                           # c("A549", "RPE1", "HELA", "MCF7")
 ### set path to data down here
 dataset = "Task001_A549"
 Unet_dir = ifelse(grepl("Windows", sessionInfo()$running),
