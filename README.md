@@ -26,7 +26,7 @@ Example of instance segmentation using watershed based instance segmentation wit
 
 List of compatible pre-trained encoders:
   - ResNet 50, ResNet 101, ResNet 152,
-  - ResNet 50 v2, ResNet 101 v2, ResNet 152 v2,
+  - ResNet 50 v2, ResNet 101 v2, ResNet 152 v2
   - ResNeXt 50, ResNeXt 101
   - SE ResNeXt 50, SE ResNeXt 101, SENet 154
   - Xception
