@@ -7,13 +7,13 @@ Two different instance segmentation strategies are then offered here to further 
 
 Nifti format were used to develop the method. Stick to it to run the method as it is or you will have to modify it accordingly.
 
-Set parameters for size of images, number of semantic classes, batch size, epochs, etc.:
+Set [parameters](https://github.com/mgendarme/BriFiSeg/FunctionCompilation/Params.r) for size of images, number of semantic classes, batch size, epochs, etc.:
 `~/FunctionCompilation/Params.r`
 
-For training and ruinning inference of semantic segmentation task run:
+For training and ruinning inference of [semantic segmentation](https://github.com/mgendarme/BriFiSeg/BriFiSeg_Semantic_Segmentation.r) task run:
 `BriFiSeg_Semantic_Segmentation.r`
 
-For derinving instances and getting metrics on instances run:
+For derinving [instances](https://github.com/mgendarme/BriFiSeg/BriFiSeg_Instance_Segmentation.r) and getting metrics on instances run:
 `BriFiSeg_Instance_Segmentation.r`
 
 Example of semantic segmentation of nuclei in brightfield images using U-Net and different pre-trained encoders.
