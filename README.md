@@ -13,7 +13,7 @@ Set [parameters](https://github.com/mgendarme/BriFiSeg/FunctionCompilation/Param
 For training and ruinning inference of [semantic segmentation](https://github.com/mgendarme/BriFiSeg/BriFiSeg_Semantic_Segmentation.r) task run:
 `BriFiSeg_Semantic_Segmentation.r`
 
-For derinving [instances](https://github.com/mgendarme/BriFiSeg/BriFiSeg_Instance_Segmentation.r) and getting metrics on instances run:
+For running [instance segmentation](https://github.com/mgendarme/BriFiSeg/BriFiSeg_Instance_Segmentation.r) derived from semantic maps and getting metrics on instances:
 `BriFiSeg_Instance_Segmentation.r`
 
 Example of semantic segmentation of nuclei in brightfield images using U-Net and different pre-trained encoders.
