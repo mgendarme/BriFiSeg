@@ -25,12 +25,12 @@ Example of instance segmentation using watershed based instance segmentation wit
 (from left to right, input image, ground truth, prediction)
 
 List of compatible pre-trained encoders:
-  - resnet50, resnet101, resnet152,
-  - resnet 50 v2, resnet101 v2, resnet152v2,
-  - resnext50, resnext101
-  - seresnext 50, seresnext 101, senet154
-  - xception
-  - inception_resnet_v2
-  - efficientnet B0 to efficientnet B7
-  - nasnet_mobile, nasnet_large
-  - densenet121, densenet169, densenet201
+  - ResNet 50, ResNet 101, ResNet 152,
+  - ResNet 50 v2, ResNet 101 v2, ResNet 152 v2,
+  - ResNeXt 50, ResNeXt 101
+  - SE ResNeXt 50, SE ResNeXt 101, SENet 154
+  - Xception
+  - Inception ResNet v2
+  - EfficientNet B0 to EfficientNet B7
+  - NASNet mobile, NASNet large
+  - DenseNet 121, DenseNet 169, DenseNet 201
