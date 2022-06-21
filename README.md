@@ -7,7 +7,7 @@ Two different instance segmentation strategies were tested here to further post-
 
 Nifti format were used to develop the method. Stick to it to run the method as it is or you will have to modify it accordingly.
 
-Set [parameters](https://github.com/mgendarme/BriFiSeg/FunctionCompilation/Params.r) for size of images, number of semantic classes, batch size, epochs, choice of architecture, encoder, etc.:
+Set [parameters](https://github.com/mgendarme/BriFiSeg/Params.r) for size of images, number of semantic classes, batch size, epochs, choice of architecture, encoder, etc.:
 `~/FunctionCompilation/Params.r`
 
 For training and ruinning inference of [semantic segmentation](https://github.com/mgendarme/BriFiSeg/BriFiSeg_Semantic_Segmentation.r) task run:
