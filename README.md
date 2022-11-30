@@ -1,5 +1,6 @@
 # BriFiSeg
 BriFiSeg is a method developped to perform semantic and instance segmentation of nuclei in brightfield images. 
+[Paper](https://arxiv.org/abs/2211.03072) with all the details. Please site it if you refer to this work.
 
 The method is based on deep convolutional neural network architecture (U-Net mainly, but FPN, PSPNet and Deeplab v3+ can also be found) using deep pre-trained encoders. We provide plenty of encoders compatible with our architectures. Also ResNeXt, and Squeeze-and-Excitation networks were written in R and tested here. Code not available in R before!
 
